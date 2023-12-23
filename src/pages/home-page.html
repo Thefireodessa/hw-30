@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DUO Shop</title>
+    <link rel="stylesheet" href="./../styles/css/home-page.css">
+</head>
+<body class="bg-light">
+
+<header class="header">
+    <div class="header-top py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-between">
+                    <div class="header-top__contact">
+                        <a class="text-reset text-decoration-none" href="tel:+33(0)499632050">
+                        <small><i class="bi bi-telephone pe-2"></i>
+                        <span>+33(0)499632050</span></small>
+                        </a>
+                    </div>
+                    <div class="header-top__lang">
+                        <div class="dropdown">
+                        <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-globe"></i>
+                            <span>English</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Ukrainian</a></li>
+                            <li><a class="dropdown-item" href="#">Italian</a></li>
+                        <li><a class="dropdown-item" href="#">German</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="header-bottom shadow py-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand me-5" href="#">
+                    <img src="./../assets/svg/logo.svg" alt="DUO Shop">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-5">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#searchModal">
+                                <i class="bi bi-search"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Product 1</a></li>
+                                <li><a class="dropdown-item" href="#">Product 2</a></li>
+                                <li><a class="dropdown-item" href="#">Product 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Applications
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Application 1</a></li>
+                                <li><a class="dropdown-item" href="#">Application 2</a></li>
+                                <li><a class="dropdown-item" href="#">Application 3</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Documentation</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <ul class="list-unstyled d-flex align-items-center gap-3 m-0">
+                            <li><a href="#" class="text-reset text-decoration-none">
+                                <i class="bi bi-person fs-5"></i>
+                            </a></li>
+                            <li><a href="#" class="text-reset text-decoration-none">
+                                <i class="bi bi-cart fs-5"></i>
+                            </a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </nav>
+
+
+    </div>
+</header>
+
+<main>
+    <section class="breadcrumbs pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-decoration-none" href="#">Products</a></li>
+                            <li class="breadcrumb-item"><a class="text-decoration-none" href="#">Display Wall</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Products</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="page-heading pb-5">
+        <div class="container">
+            <div class="row col-12">
+                <h1>Display Wall</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-searching pb-4">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-3">
+
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>Display Wall</span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+                <div class="col-9 position-relative">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <i class="bi bi-search position-absolute pt-2"></i>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="products">
+        <div class="container">
+            <div class="row">
+
+
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+
+<!-- Modal Search -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="./../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

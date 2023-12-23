@@ -1,0 +1,12 @@
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1000px,
+        xxl: 1120px
+) !default;
+
+$breadcrumb-divider: quote("-");
+$bootstrap-icons-font-dir: "./../../../node_modules/bootstrap-icons/font/fonts";
+@import "./../../../../node_modules/bootstrap/scss/bootstrap";
+@import "./../../../../node_modules/bootstrap-icons/font/bootstrap-icons";
