@@ -20101,4 +20101,8 @@ textarea.form-control-lg {
   right: 30px;
 }
 
+.products h2, .products .h2 {
+  color: blue;
+}
+
 /*# sourceMappingURL=home-page.css.map */
