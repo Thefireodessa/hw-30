@@ -20126,4 +20126,33 @@ textarea.form-control-lg {
   border-radius: 15px;
 }
 
+.footer-top {
+  background-color: #26282C;
+  color: #BDBDBE;
+}
+.footer-top .list-group-item {
+  color: #BDBDBE;
+  font-size: 13px;
+}
+.footer-top .fcontacts {
+  font-size: 13px;
+}
+.footer-top .input-group {
+  width: 180px;
+}
+.footer-top .input-group .form-control {
+  background-color: #26282C;
+  color: #BDBDBE;
+  border-radius: 20px;
+}
+.footer-top .btn {
+  width: 180px;
+}
+
+.footer-bottom {
+  background-color: #000;
+  color: #BDBDBE;
+  font-size: 13px;
+}
+
 /*# sourceMappingURL=home-page.css.map */
