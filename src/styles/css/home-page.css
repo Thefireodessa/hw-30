@@ -20101,8 +20101,29 @@ textarea.form-control-lg {
   right: 30px;
 }
 
-.products h2, .products .h2 {
-  color: blue;
+.products .accordion-button {
+  color: #2268B4;
+}
+.products .accordion-item span {
+  font-size: 12px;
+}
+.products .small-icon {
+  top: 10px;
+  right: 10px;
+}
+.products .small-icon1 {
+  top: 40px;
+  right: 10px;
+}
+.products .input2 {
+  width: 60px;
+  height: 30px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+.products .dropdown2 {
+  background-color: white;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=home-page.css.map */
